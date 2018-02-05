@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "529497257629",
+    "firebase_url": "https://loaning-227b1.firebaseio.com",
+    "project_id": "loaning-227b1",
+    "storage_bucket": "loaning-227b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529497257629:android:fb483f5152cc19ef",
+        "android_client_info": {
+          "package_name": "com.example.blurryface.loanapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529497257629-uqtregah6spkkvsj16bvnhm5fauen3nf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.blurryface.loanapp",
+            "certificate_hash": "2e5df5c06e7ae9d9b693770cbb14687a67b41a13"
+          }
+        },
+        {
+          "client_id": "529497257629-onf7mjpl18pmf0jt6hqegvre0oi6hucq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoKSyKpjh2F977qP63t4w3mLilPXvZTDg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529497257629-onf7mjpl18pmf0jt6hqegvre0oi6hucq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

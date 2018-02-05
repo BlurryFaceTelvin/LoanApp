@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LoanApplication</string>
+    <string name="welcome_to_getaloan">Welcome to GetALoan</string>
+    <string name="already_a_member_login">Already a member?Login</string>
+    <string name="not_a_member_signup">Not a member?SignUp</string>
+    <string name="national_id">National ID</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="loans_taken">Loans Taken</string>
+    <string name="current_loan_limit">Current Loan Limit</string>
+    <string name="apply_for_loan">APPLY FOR LOAN</string>
+    <string name="apply">Apply</string>
+    <string name="log_out">Log Out</string>
+</resources>
