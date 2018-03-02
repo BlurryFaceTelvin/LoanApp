@@ -98,7 +98,7 @@ public class SignUpActivity extends AppCompatActivity {
                     @Override
                     public void onFailure(@NonNull Exception e) {
                         //error for adding to the real-time database
-                        Toast.makeText(SignUpActivity.this,e.getMessage().toString(),Toast.LENGTH_LONG).show();
+                        Toast.makeText(SignUpActivity.this,e.getMessage(),Toast.LENGTH_LONG).show();
                     }
                 });
 
@@ -107,7 +107,7 @@ public class SignUpActivity extends AppCompatActivity {
             @Override
             public void onFailure(@NonNull Exception e) {
                 //error for creating user with email and password
-                Toast.makeText(SignUpActivity.this,e.getMessage().toString(),Toast.LENGTH_LONG).show();
+                Toast.makeText(SignUpActivity.this,e.getMessage(),Toast.LENGTH_LONG).show();
             }
         });
 
