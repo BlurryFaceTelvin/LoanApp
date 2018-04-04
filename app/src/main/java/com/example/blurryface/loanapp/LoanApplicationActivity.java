@@ -67,7 +67,7 @@ public class LoanApplicationActivity extends AppCompatActivity {
         applyDialog = new SpotsDialog(this,"Applying For Loan");
         //initialize the Africa's Talking API ip address of my machine
         try {
-            AfricasTalking.initialize("192.168.137.236",35897, true);
+            AfricasTalking.initialize("10.66.19.88",35897, true);
             AfricasTalking.setLogger(new Logger() {
                 @Override
                 public void log(String message, Object... args) {

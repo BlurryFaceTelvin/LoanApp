@@ -18,16 +18,17 @@ public class PaymentServer {
 
     private static final int RPC_PORT = 35897;
     private static final int HTTP_PORT = 30001;
-    public static void main(String[] args){
+    public static void main(String[] args) {
         System.out.print("Starting................");
-        AfricasTalking.initialize("loans","dee8b36900884e96bdde7e9fc09df94fc7d7ced66324c454bb76c8a17f420803");
+        AfricasTalking.initialize("loans", "dee8b36900884e96bdde7e9fc09df94fc7d7ced66324c454bb76c8a17f420803");
         Server server = new Server();
-        try  {
+        try {
             server.startInsecure(RPC_PORT);
 
         } catch (IOException e) {
             e.printStackTrace();
         }
+
         //set our port
         port(HTTP_PORT);
         HashMap<String,String> transactions = new HashMap<>();
@@ -51,5 +52,6 @@ public class PaymentServer {
         String status;
     }
 
- }
+}
+
 

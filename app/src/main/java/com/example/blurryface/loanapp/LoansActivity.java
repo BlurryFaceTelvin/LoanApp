@@ -98,7 +98,7 @@ public class LoansActivity extends AppCompatActivity {
 
         //initialize the Africa's Talking API ip address
         try {
-            AfricasTalking.initialize("192.168.137.236",35897, true);
+            AfricasTalking.initialize("10.66.19.88",35897, true);
             AfricasTalking.setLogger(new Logger() {
                 @Override
                 public void log(String message, Object... args) {
@@ -249,7 +249,7 @@ public class LoansActivity extends AppCompatActivity {
     //method to confirm payment.....whether successful or not
     public void confirmPayment(){
         client = new OkHttpClient();
-        request = new Request.Builder().url("http://192.168.137.236:30001/transactionLoan/status").build();
+        request = new Request.Builder().url("http://10.66.19.88:30001/transactionLoan/status").build();
         client.newCall(request).enqueue(new com.squareup.okhttp.Callback() {
             @Override
             public void onFailure(Request request, IOException e) {
